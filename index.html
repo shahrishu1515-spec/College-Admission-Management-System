@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPSU - College Admission Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>PPSU</span> College
+                </a>
+                
+                <div class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="courses.html"><i class="fas fa-book"></i> Courses</a></li>
+                    <li><a href="notice-details.html"><i class="fas fa-bullhorn"></i> Notices</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li class="nav-login"><a href="user/login.html" class="btn-login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Better Education For A Better World</h1>
+                    <p>Shape your future with our world-class education system</p>
+                    <a href="contact.html" class="btn-hero">Contact Now</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Explore What We Have to Offer</h1>
+                    <p>Discover our wide range of courses and programs</p>
+                    <a href="courses.html" class="btn-hero">View Our Courses</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Exceptional People, Exceptional Care</h1>
+                    <p>Join our community of dedicated educators and students</p>
+                    <a href="contact.html" class="btn-hero">Contact Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="slider-dots"></div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="container">
+            <div class="welcome-grid">
+                <div class="welcome-content">
+                    <h2>Welcome To Our Campus</h2>
+                    <p>At ARC College, we are committed to providing high-quality education that empowers students to achieve their full potential. Our state-of-the-art facilities and experienced faculty create an environment conducive to learning and personal growth.</p>
+                    <p>With a legacy of excellence spanning over two decades, we have consistently produced graduates who excel in their respective fields and contribute positively to society.</p>
+                    <a href="about.html" class="btn-primary">Read More</a>
+                </div>
+                <div class="welcome-image">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="College Campus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission CTA -->
+    <section class="admission-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h3>Apply for Admission</h3>
+                <h4>Limited Seats Available</h4>
+                <p>Apply now to secure your spot and embark on an exciting journey towards academic excellence. Don't miss the opportunity to join our prestigious institution.</p>
+                <a href="user/login.html" class="btn-secondary">Apply Here</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Notices -->
+    <section class="notices-section">
+        <div class="container">
+            <h2 class="section-title">Latest Notices</h2>
+            <div class="notices-grid">
+                <div class="notice-card">
+                    <div class="notice-image">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Notice">
+                    </div>
+                    <div class="notice-content">
+                        <h3>Admission Open for 2024 Session</h3>
+                        <span class="notice-date"><i class="far fa-calendar"></i> March 15, 2024</span>
+                        <p>Admissions are now open for the 2024 academic session. Apply before April 30th to secure your seat.</p>
+                        <a href="notice-details.html" class="btn-read-more">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="notice-card">
+                    <div class="notice-image">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Notice">
+                    </div>
+                    <div class="notice-content">
+                        <h3>Scholarship Application Deadline</h3>
+                        <span class="notice-date"><i class="far fa-calendar"></i> March 10, 2024</span>
+                        <p>Last date to apply for merit-based scholarships is March 25, 2024. Submit your applications now.</p>
+                        <a href="notice-details.html" class="btn-read-more">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="notice-card">
+                    <div class="notice-image">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Notice">
+                    </div>
+                    <div class="notice-content">
+                        <h3>Annual Sports Day 2024</h3>
+                        <span class="notice-date"><i class="far fa-calendar"></i> March 5, 2024</span>
+                        <p>Annual Sports Day will be held on March 20, 2024. All students are requested to participate.</p>
+                        <a href="notice-details.html" class="btn-read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="notice-details.html" class="btn-view-all">View All Notices</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-graduation-cap"></i> ARC College</h3>
+                    <p>Committed to excellence in education since 2000. We provide quality education and shape future leaders.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                        <li><a href="notice-details.html"><i class="fas fa-chevron-right"></i> Notices</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, Country</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                        <li><i class="fas fa-envelope"></i> info@arccollege.edu</li>
+                        <li><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ARC College Admission Management System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
